@@ -9,7 +9,9 @@ public class Principal extends Ninjas {
         naruto.missao = "Se tornar hokage";
         naruto.dificuldadeMissao = "S";
         naruto.status = "Em andamento";
+        naruto.mostrarNinja();
         naruto.resultadoMissao();
+        System.out.println("===========");
 
         Ninjas sasuke = new Ninjas();
         sasuke.nome = "Sasuke Uchiha";
@@ -17,7 +19,9 @@ public class Principal extends Ninjas {
         sasuke.missao = "Matar Itachi";
         sasuke.dificuldadeMissao = "S";
         sasuke.status = "Ganhando poder";
+        sasuke.mostrarNinja();
         sasuke.resultadoMissao();
+        System.out.println("===========");
 
         Ninjas sakura = new Ninjas();
         sakura.nome = "Sakura Haruno";
@@ -25,7 +29,9 @@ public class Principal extends Ninjas {
         sakura.missao = "Achar o Sasuke";
         sakura.dificuldadeMissao = "B";
         sakura.status = "Em andamento";
+        sakura.mostrarNinja();
         sakura.resultadoMissao();
+        System.out.println("===========");
 
     }
 }

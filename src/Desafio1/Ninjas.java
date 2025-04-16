@@ -16,4 +16,9 @@ public class Ninjas {
                         status = "Missão finalizada";
                 }
         }
+        void mostrarNinja(){
+                System.out.println("O ninja é "+ nome);
+                System.out.println("Ele tem " + idade);
+                System.out.println("Está fazendo a missão de: " + missao);
+        }
 }
