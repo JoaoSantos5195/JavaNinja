@@ -6,7 +6,7 @@ public class Usuario {
     private int id, numAnterior;
     private float saldo, divida, emprestimo;
 
-    public Usuario(short id, String nome, String senha, int cpf, int score, float saldo, float divida, float emprestimo){
+    public Usuario(int id, String nome, String senha, int cpf, int score, float saldo, float divida, float emprestimo){
         this.id = id;
         this.nome = nome;
         this.senha = senha;
@@ -15,13 +15,6 @@ public class Usuario {
         this.saldo = saldo;
         this.divida = divida;
         this.emprestimo = emprestimo;
-    }
-
-    
-    public int criaId(){
-        id = numAnterior += 1;
-        numAnterior = id;
-        return id;
     }
     
 }
