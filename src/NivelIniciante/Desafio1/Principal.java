@@ -1,4 +1,4 @@
-package Desafio1;
+package NivelIniciante.Desafio1;
 
 public class Principal extends Ninjas {
     public static void main(String[] args) {

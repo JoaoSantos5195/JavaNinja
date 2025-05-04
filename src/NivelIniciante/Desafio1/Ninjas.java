@@ -1,4 +1,4 @@
-package Desafio1;
+package NivelIniciante.Desafio1;
 
 public class Ninjas {
         String nome;
