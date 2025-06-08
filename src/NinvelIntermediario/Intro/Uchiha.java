@@ -1,4 +1,4 @@
-package NinvelIntermediario;
+package NinvelIntermediario.Intro;
 
 public class Uchiha extends Ninja{
 
