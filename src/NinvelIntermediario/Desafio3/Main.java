@@ -4,15 +4,13 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class teste {
+public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         Map<String, Ninja> ninjas = new HashMap<>();
 
-
-        int escolha;
-
+        int escolha = 0;
 
         do {
         System.out.println("--- CRIAÇÃO DE NINJA ---");
@@ -40,7 +38,6 @@ public class teste {
 
                     System.out.println("qual o status? ");
                     String statusNinja = sc.nextLine(); // OK
-
 
                     Uzumaki ninja = new Uzumaki();
                     ninja.nome = nomeNinja;
