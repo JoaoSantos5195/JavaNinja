@@ -5,6 +5,12 @@ public abstract class Ninja implements HabilidadesUnicas {
     int idade;
     String aldeia;
 
+    public Ninja(String nome, int idade, String aldeia) {
+        this.nome = nome;
+        this.idade = idade;
+        this.aldeia = aldeia;
+    }
+
     //metodo concreto
     public void apresentar(){
         System.out.println("Ninja "+nome+" "+idade+" anos");

@@ -2,18 +2,13 @@ package NinvelIntermediario.Abstracao;
 
 public class Main {
     public static void main(String[] args) {
-        Uzumaki Naruto = new Uzumaki();
-        Naruto.nome = "Naruto Uzumaki";
-        Naruto.idade = 18;
-        Naruto.aldeia = "Aldeia da folha";
+        Uzumaki Naruto = new Uzumaki("Naruto Uzumaki", 17, "Aldeia da folha");
         Naruto.habilidade();
         Naruto.apresentar();
+        Naruto.habilidadeUnica(Naruto.skill);
 
 
-        Uchiha Sasuke = new Uchiha();
-        Sasuke.nome = "Sasuke Uchiha";
-        Sasuke.idade = 19;
-        Sasuke.aldeia = "Aldeia da folha";
+        Uchiha Sasuke = new Uchiha("Sasuke", 18, "Aldeia da folha");
         Sasuke.habilidade();
         Sasuke.apresentar();
         Sasuke.habilidadeUnica(Sasuke.skill);
